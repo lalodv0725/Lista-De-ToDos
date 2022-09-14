@@ -58,7 +58,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Mi Aplicacion WebPack',
+            title: 'Lista de Todos',
             //filename: 'holaWebpack.html',//Cambia el html de salida en la carpeta dist
             template: './src/index.html'//archivo base que tomara al momento de construirlo en "dist"
         }),
